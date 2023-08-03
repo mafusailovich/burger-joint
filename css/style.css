@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+header, main, footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header {
+    background: linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0) 100%);
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav_menu_logo {
+    flex-basis: 300px;
+    flex-grow:1;
+}
+
+.nav_menu_logo p {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    display: inline;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 900;
+
+}
+
+.nav_menu_logo p:first-of-type  {
+    background-image: url("../images/Rectangle_3.png");
+    background-repeat: no-repeat;
+    background-size: 50px 57px;
+    background-position: left;
+    padding-left: 0.5rem;
+    font-size:3rem;
+    color: white;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.nav_menu_links {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 500;
+    flex-basis: 300px;
+    flex-grow:3;
+
+}
+
+.nav_menu_links a {
+    outline: none;
+    text-decoration: none;
+    color:black;
+}
+
+.nav_menu_links a:nth-of-type(1) {
+    font-weight: 800;
+}
+
+.nav_menu_links a:nth-of-type(2) {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.nav_menu_button {
+    flex-basis: 100px;
+}
+
+.nav_menu_basket {
+    background-color: #312626;
+    background-image: url("../images/basket.png");
+    background-position: 1.5rem;
+    background-repeat: no-repeat;
+    border:none;
+    border-radius: 50%;
+    padding: 3.5rem;
+
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.header_text,
+.header_burger {
+    width: 50%;
+}
+
+.header_text h1 {
+    font-size:3.2rem;
+    margin-bottom: 3rem;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.header_text p {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header_text button {
+    background-color: #E52626;
+    font-size: 2.4rem;
+    padding: 1.5rem;
+    border-radius: 5rem;
+    border:none;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header_text a {
+    outline: none;
+    text-decoration: none;
+    color: rgb(220, 206, 206);
+    cursor:pointer;
+}
+
+main h2 {
+    font-size:4.5rem;
+    line-height: 5.5rem;
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.burgers_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.burgers_menu p {
+    font-size: 3.5rem;
+    line-height: 4.3rem;
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.burgers_menu div {
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.burgers_menu img {
+    width: 35rem;
+}
+
+footer {
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #EDA61D 100%);
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-family: 'Montserrat', serif;
+    font-style:normal;
+    font-weight: 400;
+}
+
+footer div:first-of-type p:first-of-type {
+    font-weight: 500;
+}
+
+.middle {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+footer a {
+    outline: none;
+    text-decoration: none;
+    color:black;
+}

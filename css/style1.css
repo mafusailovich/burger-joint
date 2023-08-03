@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size:10px;
+    font-family: 'Montserrat', 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+
+
+header {
+    background: linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0) 100%);
+    padding: 50px;
+}
+
+.nav_menu {
+    display: grid;
+    grid-template-columns: 30vw 60vw 10vw;
+    column-gap: 1vw;
+}
+
+.nav_menu_logo, .nav_menu_links, .nav_menu_basket {
+    border: 1px solid black;
+}
+
+.nav_menu_logo {
+    display: grid;
+    grid-template-columns: ;
+}
